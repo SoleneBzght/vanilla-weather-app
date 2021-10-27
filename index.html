@@ -14,8 +14,37 @@
     <title>☀ Weather app</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Hello</h1>
+    <!-- Search bar -->
+    <div class="container searchbar">
+      <form id="search-form" class="input-group">
+        <input
+          type="search"
+          class="form-control"
+          id="search-input"
+          placeholder="Enter a city..."
+          autocomplete="off"
+          autofocus
+        />
+        <input type="submit" class="btn btn-primary" value="Search" />
+      </form>
+    </div>
+    <!-- City card -->
+    <div class="container city-card">
+      <div class="row">
+        <div class="col-3">
+          <img src="http://openweathermap.org/img/wn/04n@2x.png" alt="Cloudy" />
+        </div>
+        <div class="col-6">
+          Paris
+          <br />
+          Cloudy
+        </div>
+        <div class="col-3">
+          Humidity:
+          <br />
+          Wind:
+        </div>
+      </div>
     </div>
     <script src="src/index.js"></script>
   </body>

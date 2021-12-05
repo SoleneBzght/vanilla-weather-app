@@ -11,40 +11,57 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <title>☀ Weather app</title>
+    <title>☀ Solene's Weather app</title>
   </head>
   <body>
-    <!-- Search bar -->
-    <div class="container searchbar">
-      <form id="search-form" class="input-group">
-        <input
-          type="search"
-          class="form-control"
-          id="search-input"
-          placeholder="Enter a city..."
-          autocomplete="off"
-          autofocus
-        />
-        <input type="submit" class="btn btn-primary" value="Search" />
-      </form>
-    </div>
-    <!-- City card -->
-    <div class="container city-card">
-      <div class="row">
-        <div class="col-3">
-          <img src="http://openweathermap.org/img/wn/04n@2x.png" alt="Cloudy" />
+    <div class="container">
+      <div class="app-wrap">
+        <!-- Search section -->
+        <div class="row search-wrap">
+          <form id="search-form" class="input-group">
+            <input
+              type="search"
+              class="form-control"
+              id="search-input"
+              placeholder="Enter a city"
+              autocomplete="off"
+              autofocus
+            />
+            <input type="submit" class="btn btn-primary" value="Search" />
+          </form>
         </div>
-        <div class="col-6">
-          Paris
-          <br />
-          Cloudy
+        <!-- Weather details section -->
+        <div class="row weather-wrap">
+          <div class="main">
+            <h1 class="location">Paris</h1>
+          </div>
+          <div class="details">
+            <p class="temp">2°C</p>
+            <p class="humidity-value">3°%</p>
+            <p class="humidity-name">Humidity</p>
+            <p class="wind-value">2 KM/h</p>
+            <p class="wind-name">Wind</p>
+          </div>
         </div>
-        <div class="col-3">
-          Humidity:
-          <br />
-          Wind:
+        <!-- Forecast -->
+        <div class="row forcast-wrapp">
+          <div class="col-2 forcast">Monday</div>
+          <div class="col-2 forcast">Tuesday</div>
+          <div class="col-2 forcast">Wednesday</div>
+          <div class="col-2 forcast">Thursday</div>
+          <div class="col-2 forcast">Friday</div>
+          <div class="col-2 forcast">Saturday</div>
         </div>
       </div>
+      <small>
+        <a
+          href="https://github.com/SoleneBzght/vanilla-weather-app"
+          target="_blank"
+        >
+          Open-source code
+        </a>
+        by SoleneB
+      </small>
     </div>
     <script src="src/index.js"></script>
   </body>

@@ -32,19 +32,25 @@
         </div>
         <!-- Weather details section -->
         <div class="row weather-wrap">
-          <div class="main">
+          <div class="col-md-6 main">
             <h1 class="location">Paris</h1>
           </div>
-          <div class="details">
-            <p class="temp">2°C</p>
-            <p class="humidity-value">3°%</p>
-            <p class="humidity-name">Humidity</p>
-            <p class="wind-value">2 KM/h</p>
-            <p class="wind-name">Wind</p>
+          <div class="col-md-6 temperature">
+            <h2 class="temp">2°C</h2>
+          </div>
+          <div class="col-md-6 image">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
+              alt="Sunny"
+            />
+          </div>
+          <div class="col-md-6 details">
+            <p class="humidity">Humidity | 3%</p>
+            <p class="wind">Wind | 2 KM/h</p>
           </div>
         </div>
         <!-- Forecast -->
-        <div class="row forcast-wrapp">
+        <div class="row forcast-wrap">
           <div class="col-2 forcast">Monday</div>
           <div class="col-2 forcast">Tuesday</div>
           <div class="col-2 forcast">Wednesday</div>

@@ -35,15 +35,15 @@ h1 {
   font-size: 40px;
   text-align: center;
 }
-h2 {
-  color: #316274;
-  font-size: 30px;
-  text-align: center;
-}
 .image {
   text-align: center;
 }
-p {
+.main-icon {
+  height: 80px;
+  width: 80px;
+}
+.humidity,
+.wind {
   color: #c3c5c8;
   text-align: center;
   margin-bottom: 0;
@@ -52,11 +52,16 @@ p {
 .forecast-wrap {
   margin-top: 40px;
   padding-top: 20px;
+  text-align: center;
+  display: flex;
 }
 .forecast {
   color: #316274;
-  padding-right: 10px;
-  padding-left: 10px;
+}
+.card-body {
+  border-top: 1px solid rgba(195, 197, 200, 0.2);
+  position: relative;
+  align-items: center;
 }
 /* bottom section */
 small {

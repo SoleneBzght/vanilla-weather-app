@@ -27,26 +27,28 @@
     <div class="container">
       <div class="app-wrap">
         <!-- Search section -->
-        <div class="row search-wrap">
-          <div class="col-8">
-            <form id="search-form" class="input-group">
-              <input
-                type="search"
-                class="form-control"
-                id="search-input"
-                placeholder="Enter a city"
-                autocomplete="off"
-                autofocus
-              />
-            </form>
-          </div>
-          <div class="col-4">
-            <input
-              type="submit"
-              class="btn btn-outline-primary"
-              value="Search"
-            />
-          </div>
+        <div class="search-wrap">
+          <form id="search-form">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Enter a city"
+                  class="form-control"
+                  autocomplete="off"
+                  id="search-input"
+                />
+              </div>
+              <div class="col-3">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary"
+                  id="search-button"
+                />
+              </div>
+            </div>
+          </form>
         </div>
         <!-- Weather details section -->
         <div class="row weather-wrap">

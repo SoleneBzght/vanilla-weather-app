@@ -7,8 +7,7 @@
 }
 /* search section */
 .search-wrap {
-  padding-top: 20px;
-  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 .form-control:focus {
   border-color: #c3c5c8;
@@ -16,14 +15,22 @@
   box-shadow: none;
   color: #316274;
 }
-.btn-outline-primary {
-  color: #316274;
-  border-color: #316274;
-}
-.btn-outline-primary:hover {
+.btn-primary {
   color: #e7e6e0;
   background-color: #316274;
   border-color: #316274;
+  box-shadow: none;
+}
+.btn-primary:hover {
+  color: #316274;
+  border-color: #316274;
+  background-color: transparent;
+}
+.btn-primary:focus {
+  color: #316274;
+  border-color: #316274;
+  background-color: transparent;
+  box-shadow: none;
 }
 /* weather details */
 .weather-wrap {
@@ -66,7 +73,6 @@ ul {
   margin-top: 40px;
   padding-top: 20px;
   text-align: center;
-  display: flex;
 }
 .forecast {
   color: #316274;

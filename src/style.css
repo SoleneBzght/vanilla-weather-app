@@ -1,8 +1,11 @@
+body {
+  background-color: rgba(150, 170, 179, 0.5);
+}
 .app-wrap {
   max-width: 700px;
   margin: 40px auto;
   padding: 20px;
-  border: 1px solid #316274;
+  border: 1px solid #1b3745;
   border-radius: 10px;
 }
 a {
@@ -12,26 +15,29 @@ a {
 .search-wrap {
   margin-bottom: 20px;
 }
+.form-control {
+  background-color: rgba(150, 170, 179, 0.2);
+}
 .form-control:focus {
-  border-color: #c3c5c8;
+  border-color: #96aab3;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #316274;
+  color: #1b3745;
 }
 .btn-primary {
-  color: #e7e6e0;
-  background-color: #316274;
-  border-color: #316274;
+  color: #96aab3;
+  background-color: #1b3745;
+  border-color: #1b3745;
   box-shadow: none;
 }
 .btn-primary:hover {
-  color: #316274;
-  border-color: #316274;
+  color: #1b3745;
+  border-color: #1b3745;
   background-color: transparent;
 }
 .btn-primary:focus {
-  color: #316274;
-  border-color: #316274;
+  color: #1b3745;
+  border-color: #1b3745;
   background-color: transparent;
   box-shadow: none;
 }
@@ -41,7 +47,7 @@ a {
   padding-bottom: 30px;
 }
 h1 {
-  color: #316274;
+  color: #1b3745;
   font-size: 40px;
   text-align: center;
 }
@@ -51,30 +57,30 @@ h1 {
   top: -15px;
 }
 .celsiusDefault {
-  color: #316274;
+  color: #1b3745;
   cursor: default;
 }
 .celsiusDefault:hover {
-  color: #316274;
+  color: #1b3745;
 }
 .celsiusNew {
-  color: #c3c5c8;
+  color: #96aab3;
   cursor: pointer;
 }
 .celsiusNew:hover {
-  color: #316274;
+  color: #1b3745;
 }
 .fahDefault {
-  color: #c3c5c8;
+  color: #96aab3;
 }
 .fahDefault:hover {
-  color: #316274;
+  color: #1b3745;
 }
 .fahNew {
-  color: #316274;
+  color: #1b3745;
 }
 .fahNew:hover {
-  color: #c3c5c8;
+  color: #96aab3;
 }
 .image {
   text-align: center;
@@ -84,41 +90,30 @@ h1 {
   width: 80px;
 }
 h2 {
-  color: #316274;
+  color: #1b3745;
   text-align: center;
   margin-bottom: 0;
   font-size: 20px;
 }
 ul {
-  color: #c3c5c8;
+  color: #96aab3;
   text-align: center;
   margin-bottom: 0;
   list-style-type: none;
 }
 /* Date section */
 .date {
-  color: #316274;
+  color: #1b3745;
   float: right;
   font-size: 13px;
   margin-right: 25px;
-}
-/* forecast section */
-.forecast-wrap {
-  margin-top: 40px;
-  padding-top: 20px;
-  text-align: center;
-}
-.forecast {
-  color: #316274;
-}
-.card-body {
-  border-top: 2px solid rgba(195, 197, 200, 0.5);
-  position: relative;
-  align-items: center;
 }
 /* bottom section */
 small {
   display: block;
   text-align: center;
   margin: 0 auto;
+}
+.githubLink {
+  color: #1b3745;
 }

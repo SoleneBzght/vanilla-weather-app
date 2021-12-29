@@ -5,6 +5,9 @@
   border: 1px solid #316274;
   border-radius: 10px;
 }
+a {
+  text-decoration: none;
+}
 /* search section */
 .search-wrap {
   margin-bottom: 20px;
@@ -41,6 +44,37 @@ h1 {
   color: #316274;
   font-size: 40px;
   text-align: center;
+}
+.units {
+  position: relative;
+  font-size: 20px;
+  top: -15px;
+}
+.celsiusDefault {
+  color: #316274;
+  cursor: default;
+}
+.celsiusDefault:hover {
+  color: #316274;
+}
+.celsiusNew {
+  color: #c3c5c8;
+  cursor: pointer;
+}
+.celsiusNew:hover {
+  color: #316274;
+}
+.fahDefault {
+  color: #c3c5c8;
+}
+.fahDefault:hover {
+  color: #316274;
+}
+.fahNew {
+  color: #316274;
+}
+.fahNew:hover {
+  color: #c3c5c8;
 }
 .image {
   text-align: center;

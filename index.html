@@ -56,14 +56,21 @@
             <h1 id="city">Paris</h1>
             <div class="image">
               <img
-                src="http://openweathermap.org/img/wn/04n@2x.png"
+                src="https://openweathermap.org/img/wn/04n@2x.png"
                 alt=""
                 id="main-icon"
               />
             </div>
           </div>
           <div class="col-md-6 temperature">
-            <h1><span id="temp">15</span>°C</h1>
+            <h1>
+              <span id="temp">15</span
+              ><span class="units"
+                ><a href="#" id="celsius-link" class="celsiusDefault"> °C</a>
+                |
+                <a href="#" id="fahrenheit-link" class="fahDefault">°F</a></span
+              >
+            </h1>
             <h2 id="description">Clouds</h2>
             <ul class="details">
               <li>Humidity | <span id="humidityResult">93</span>%</li>

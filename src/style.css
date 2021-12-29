@@ -42,11 +42,24 @@ h1 {
   height: 80px;
   width: 80px;
 }
-.humidity,
-.wind {
+h2 {
+  color: #316274;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+ul {
   color: #c3c5c8;
   text-align: center;
   margin-bottom: 0;
+  list-style-type: none;
+}
+/* Date section */
+.date {
+  color: #316274;
+  float: right;
+  font-size: 13px;
+  margin-right: 25px;
 }
 /* forecast section */
 .forecast-wrap {
@@ -59,7 +72,7 @@ h1 {
   color: #316274;
 }
 .card-body {
-  border-top: 1px solid rgba(195, 197, 200, 0.2);
+  border-top: 2px solid rgba(195, 197, 200, 0.5);
   position: relative;
   align-items: center;
 }

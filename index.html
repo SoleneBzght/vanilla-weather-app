@@ -19,6 +19,7 @@
         font-family: "poppins", sans-serif;
       }
     </style>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>☀ Solene's Weather app</title>
   </head>
@@ -50,7 +51,7 @@
         <!-- Weather details section -->
         <div class="row weather-wrap">
           <div class="col-md-6 main">
-            <h1 class="location">Paris</h1>
+            <h1 id="city">Paris</h1>
             <div class="image">
               <img
                 src="https://ssl.gstatic.com/onebox/weather/48/sunny.png"
@@ -60,10 +61,17 @@
             </div>
           </div>
           <div class="col-md-6 temperature">
-            <h1 class="temp">2°C</h1>
-            <p class="humidity">Humidity | 3%</p>
-            <p class="wind">Wind | 2 KM/h</p>
+            <h1><span id="temp">2</span>°C</h1>
+            <h2 id="description">Clear</h2>
+            <ul class="details">
+              <li>Humidity | <span id="humidityResult">3</span>%</li>
+              <li>Wind | <span id="windResult">8</span>Km/h</li>
+            </ul>
           </div>
+        </div>
+        <!-- Date -->
+        <div class="date">
+          Last updated: <span id="updateDate">December, 12th 2021</span>
         </div>
         <!-- Forecast -->
         <div class="row g-0 forecast-wrap">

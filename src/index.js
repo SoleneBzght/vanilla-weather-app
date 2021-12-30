@@ -98,31 +98,7 @@ function handleSubmit(event) {
   let searchInputElement = document.querySelector("#search-input");
   search(searchInputElement.value);
 }
-
-function displayFahrenheitTemp(event) {
-  event.preventDefault();
-  let tempElement = document.querySelector("#temp");
-  celsiusLink.classList.replace("celsiusDefault", "celsiusNew");
-  fahrenheitLink.classList.replace("fahDefault", "fahNew");
-  let fahrenheitTemp = (celsiusTemp * 9) / 5 + 32;
-  tempElement.innerHTML = Math.round(fahrenheitTemp);
-}
-function displayCelsiusTemp(event) {
-  event.preventDefault();
-  fahrenheitLink.classList.replace("fahNew", "fahDefault");
-  celsiusLink.classList.replace("celsiusNew", "celsiusDefault");
-  let tempElement = document.querySelector("#temp");
-  tempElement.innerHTML = Math.round(celsiusTemp);
-}
-
-let celsiusTemp = null;
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemp);
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", displayCelsiusTemp);
 
 search("Paris");

@@ -58,32 +58,6 @@ h1 {
   font-size: 20px;
   top: -15px;
 }
-.celsiusDefault {
-  color: #1b3745;
-  cursor: default;
-}
-.celsiusDefault:hover {
-  color: #1b3745;
-}
-.celsiusNew {
-  color: #96aab3;
-  cursor: pointer;
-}
-.celsiusNew:hover {
-  color: #1b3745;
-}
-.fahDefault {
-  color: #96aab3;
-}
-.fahDefault:hover {
-  color: #1b3745;
-}
-.fahNew {
-  color: #1b3745;
-}
-.fahNew:hover {
-  color: #96aab3;
-}
 .image {
   text-align: center;
 }

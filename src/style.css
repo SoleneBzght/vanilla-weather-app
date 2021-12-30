@@ -1,5 +1,6 @@
 body {
   background-color: rgba(150, 170, 179, 0.5);
+  color: #1b3745;
 }
 .app-wrap {
   max-width: 700px;
@@ -26,22 +27,23 @@ a {
   color: #1b3745;
   background-color: rgba(150, 170, 179, 0.1);
 }
-.btn-primary {
+.btn {
+  color: #1b3745;
+  background-color: transparent;
+  border-color: #1b3745;
+  box-shadow: none;
+}
+.btn:hover {
   color: #96aab3;
+  border-color: #1b3745;
   background-color: #1b3745;
-  border-color: #1b3745;
-  box-shadow: none;
 }
-.btn-primary:hover {
+.btn:focus {
+  background-color: transparent;
   color: #1b3745;
   border-color: #1b3745;
-  background-color: transparent;
-}
-.btn-primary:focus {
-  color: #1b3745;
-  border-color: #1b3745;
-  background-color: transparent;
   box-shadow: none;
+  outline: none;
 }
 /* weather details */
 .weather-wrap {
@@ -104,5 +106,9 @@ small {
   margin: 0 auto;
 }
 .githubLink {
+  color: #1b3745;
+}
+.githubLink:hover {
+  text-decoration: underline;
   color: #1b3745;
 }
